@@ -7,7 +7,7 @@ import NotFound from "./pages/NotFound";
 import PageNotFound from "./layout/PageNotFound";
 export default function App() {
   return (
-    <BrowserRouter basename="/portfolio-website"  >
+    <BrowserRouter basename="/">
       <Routes>
         <Route path="/" element={<RootLayout />} />
         <Route
@@ -26,7 +26,7 @@ export default function App() {
             </DynamicLayout>
           }
         />
-         <Route
+        <Route
           path="*"
           element={
             <PageNotFound>

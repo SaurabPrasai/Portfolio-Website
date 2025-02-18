@@ -1,7 +1,6 @@
 {
   "name": "portfolio",
   "version": "0.0.0",
-  "homepage": "https://saurabprasai.github.io/portfolio-website/",
   "type": "module",
   "scripts": {
     "dev": "vite",
