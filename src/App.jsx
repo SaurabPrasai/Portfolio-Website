@@ -7,7 +7,7 @@ import NotFound from "./pages/NotFound";
 import PageNotFound from "./layout/PageNotFound";
 export default function App() {
   return (
-    <BrowserRouter basename="/portfolio-website"  >
+    <BrowserRouter >
       <Routes>
         <Route path="/" element={<RootLayout />} />
         <Route
